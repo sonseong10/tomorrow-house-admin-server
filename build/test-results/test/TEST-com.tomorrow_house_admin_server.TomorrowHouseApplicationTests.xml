@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tomorrow_house_admin_server.TomorrowHouseApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-06T06:47:19" hostname="sonseong-yeol-ui-MacBookPro-2.local" time="0.622">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.tomorrow_house_admin_server.TomorrowHouseApplicationTests" time="0.622"/>
+  <system-out><![CDATA[15:47:18.725 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.tomorrow_house_admin_server.TomorrowHouseApplicationTests]: TomorrowHouseApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:47:18.802 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.tomorrow_house_admin_server.TomorrowHouseApplication for test class com.tomorrow_house_admin_server.TomorrowHouseApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2025-08-06T15:47:19.072+09:00  INFO 78746 --- [tomorrow-house] [    Test worker] c.t.TomorrowHouseApplicationTests        : Starting TomorrowHouseApplicationTests using Java 17.0.16 with PID 78746 (started by sonseong-yeol in /Users/sonseong-yeol/Desktop/project/tomorrow-house-admin-server)
+2025-08-06T15:47:19.073+09:00  INFO 78746 --- [tomorrow-house] [    Test worker] c.t.TomorrowHouseApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T15:47:19.433+09:00  INFO 78746 --- [tomorrow-house] [    Test worker] c.t.TomorrowHouseApplicationTests        : Started TomorrowHouseApplicationTests in 0.53 seconds (process running for 1.318)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
