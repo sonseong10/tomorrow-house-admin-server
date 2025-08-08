@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  redis:
+    host: localhost
+    port: 6379
+
+jwt:
+  secret: "YOUR_BASE64_ENCODED_SECRET_KEY_여기에_넣으세요_최소_32바이트이상"
+  access-token-expiration: 1800000 # 30분
+  refresh-token-expiration: 604800000 # 7일

@@ -19,12 +19,43 @@ repositories {
 }
 
 dependencies {
-	implementation("org.springframework.boot:spring-boot-starter")
+	// Spring Boot Web
+	implementation("org.springframework.boot:spring-boot-starter-web")
+
+	// Spring Security
+	implementation("org.springframework.boot:spring-boot-starter-security")
+
+	// JPA + DB Driver (H2 예시)
+	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+	runtimeOnly("com.h2database:h2")
+
+	// Redis
+	implementation("org.springframework.boot:spring-boot-starter-data-redis")
+
+	// JWT
+	implementation("io.jsonwebtoken:jjwt-api:0.11.5")
+	runtimeOnly("io.jsonwebtoken:jjwt-impl:0.11.5")
+	runtimeOnly("io.jsonwebtoken:jjwt-jackson:0.11.5")
+
+	// Validation
+	implementation("org.springframework.boot:spring-boot-starter-validation")
+
+	// Password Encoder (BCrypt)
+	implementation("org.springframework.security:spring-security-crypto")
+
+	// Swagger (Springdoc OpenAPI)
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0")
+
+	// Kotlin
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
+
+	// Test
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
+
+
 
 kotlin {
 	compilerOptions {
